@@ -10,7 +10,7 @@
         <matchingRule>Preference_Match</matchingRule>
         <objectMapping xsi:nil="true"/>
     </duplicateRuleMatchRules>
-    <isActive>true</isActive>
+    <isActive>false</isActive>
     <masterLabel>Preference Duplicate</masterLabel>
     <securityOption>EnforceSharingRules</securityOption>
     <sortOrder>1</sortOrder>
