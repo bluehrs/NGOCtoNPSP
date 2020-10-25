@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>Settings for controlling Preference automations.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Auto_Populate_Fields__c</fullName>
+        <description>In addition to Category, Subcategory, Type, and Subtype, comma-separated list of other fields that will copy from Preference Code to Preference based on the defined Preference Code.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>In addition to Category, Subcategory, Type, and Subtype, comma-separated list of other fields that will copy from Preference Code to Preference based on the defined Preference Code.</inlineHelpText>
+        <label>Auto Populate Fields</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Disable_Auto_Populate__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>When checked, Preference records will not populate based on a defined Preference Code.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, Preference records will not populate based on a defined Preference Code.</inlineHelpText>
+        <label>Disable Auto Populate?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Disable_Create_Preference_Code__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>When checked, Preference Code records will not be created by data entered on Preference record. Otherwise, Preference Codes created with specified Code Value, Category, Subcategory, Type, and Subtype.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, Preference Code records will not be created by data entered on Preference record. Otherwise, Preference Codes created with specified Code Value, Category, Subcategory, Type, and Subtype.</inlineHelpText>
+        <label>Disable Create Preference Code?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Disable_Default_Start_Date__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>When checked, disables setting Start Date to today if not filled out on insert.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, disables setting Start Date to today if not filled out on insert.</inlineHelpText>
+        <label>Disable Default Start Date</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Disable_Sync_Active_End_Date__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>When checked, disables syncing the Active value with the presence of an End Date.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, disables syncing the Active value with the presence of an End Date.</inlineHelpText>
+        <label>Disable Sync Active / End Date</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Disable_Update_Account__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>When checked, disables Account from being automatically set when Contact is set but Account is not.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, disables Account from being automatically set when Contact is set but Account is not.</inlineHelpText>
+        <label>Disable Update Account?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Disable_Update_Code_Value__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>When checked, Code Value from the associated Preference Code will not be populated on Preference when Code Value is blank.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, Code Value from the associated Preference Code will not be populated on Preference when Code Value is blank.</inlineHelpText>
+        <label>Disable Update Code Value?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Preference Settings</label>
+    <visibility>Public</visibility>
+</CustomObject>
