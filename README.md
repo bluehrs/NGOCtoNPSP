@@ -7,6 +7,6 @@ Current modules:
   <li>Preferences and Preference Codes</li>
 </ul>
 
-<a href="https://githubsfdeploy-sandbox.herokuapp.com/app/githubdeploy/bluehrs/NGOCtoNPSP">
+<a href="https://githubsfdeploy.herokuapp.com/?owner=bluehrs&repo=NGOCtoNPSP">
   <img src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/src/main/webapp/resources/img/deploy.png" alt="Deploy to Salesforce" />
 </a>
